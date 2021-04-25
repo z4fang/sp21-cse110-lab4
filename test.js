@@ -1,14 +1,14 @@
-function sumValues(num1, num2, add){
-    if (add){
-        const result = 0;
-        result = num1 + num2;
+let student = {
+    name: 'Sarah',
+    major: 'CS',
+    'Grad Year': '2022',
+    greeting: function() { console.log('Hello'); },
+    'Fav Teacher': {
+        name: 'Thomas',
+        course: 'CSE 110'
+    },
 
-        console.log('values added: ', result);
+    courseLoad: ['CSE 110', 'CSE 134', 'VIS 41']
+};
 
-    } else return;
-
-    console.log('final result: ', result);
-
-}
-
-sumValues(10, 10, true);
+console.log(student["Fav Teacher"].name);

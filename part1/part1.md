@@ -37,3 +37,9 @@ Part-1b
 
     11) The program still doesn't run, since discounted is a const empty array it will stay as a counstant empty array.
 
+    12) a) student.name
+     b) student["Grad Year"] 
+     c) student.greeting() 
+     d) student["Fav Teacher"].name
+     e) student.courseLoad[0]
+    
